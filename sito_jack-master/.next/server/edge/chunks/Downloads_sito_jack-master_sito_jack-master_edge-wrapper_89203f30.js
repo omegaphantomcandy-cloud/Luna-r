@@ -1,0 +1,3 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["chunks/Downloads_sito_jack-master_sito_jack-master_edge-wrapper_89203f30.js",52675,(e,t,s)=>{self._ENTRIES||={};let r=Promise.resolve().then(()=>e.i(59021));r.catch(()=>{}),self._ENTRIES.middleware_middleware=new Proxy(r,{get(e,t){if("then"===t)return(t,s)=>e.then(t,s);let s=(...s)=>e.then(e=>(0,e[t])(...s));return s.then=(s,r)=>e.then(e=>e[t]).then(s,r),s}})}]);
+
+//# sourceMappingURL=Downloads_sito_jack-master_sito_jack-master_edge-wrapper_89203f30.js.map

@@ -1,0 +1,3 @@
+module.exports=[28494,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(77410);a.n(d("[project]/Downloads/sito_jack-master/sito_jack-master/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},84446,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(77410);a.n(d("[project]/Downloads/sito_jack-master/sito_jack-master/node_modules/next/dist/client/components/builtin/global-error.js"))},68042,a=>{"use strict";a.i(28494);var b=a.i(84446);a.n(b)}];
+
+//# sourceMappingURL=3e238_next_dist_client_components_builtin_global-error_cbf86bf8.js.map

@@ -1,0 +1,10 @@
+var R=require("../../../chunks/[turbopack]_runtime.js")("server/app/api/products/route.js")
+R.c("server/chunks/3e238_next_b56c764f._.js")
+R.c("server/chunks/3e238_next-auth_9f291eea._.js")
+R.c("server/chunks/3e238_openid-client_627c179e._.js")
+R.c("server/chunks/3e238_jose_dist_node_cjs_3b2c1ea2._.js")
+R.c("server/chunks/3e238_de3d7201._.js")
+R.c("server/chunks/[root-of-the-server]__5f8b8612._.js")
+R.c("server/chunks/1289f_sito_jack-master__next-internal_server_app_api_products_route_actions_01268749.js")
+R.m("[project]/Downloads/sito_jack-master/sito_jack-master/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Downloads/sito_jack-master/sito_jack-master/src/app/api/products/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)")
+module.exports=R.m("[project]/Downloads/sito_jack-master/sito_jack-master/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/Downloads/sito_jack-master/sito_jack-master/src/app/api/products/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)").exports

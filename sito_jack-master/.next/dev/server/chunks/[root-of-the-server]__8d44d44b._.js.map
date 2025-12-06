@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 196, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/user/Downloads/sito_jack-master/sito_jack-master/src/app/api/upload/route.ts"],"sourcesContent":["import { put } from '@vercel/blob';\nimport { NextResponse } from 'next/server';\n\nexport async function POST(request: Request) {\n    const { searchParams } = new URL(request.url);\n    const filename = searchParams.get('filename');\n\n    if (!filename || !request.body) {\n        return NextResponse.json({ error: 'Filename and body are required' }, { status: 400 });\n    }\n\n    const blob = await put(filename, request.body, {\n        access: 'public',\n        addRandomSuffix: true,\n    });\n\n    return NextResponse.json(blob);\n}\n"],"names":[],"mappings":";;;;AAAA;AACA;;;AAEO,eAAe,KAAK,OAAgB;IACvC,MAAM,EAAE,YAAY,EAAE,GAAG,IAAI,IAAI,QAAQ,GAAG;IAC5C,MAAM,WAAW,aAAa,GAAG,CAAC;IAElC,IAAI,CAAC,YAAY,CAAC,QAAQ,IAAI,EAAE;QAC5B,OAAO,2MAAY,CAAC,IAAI,CAAC;YAAE,OAAO;QAAiC,GAAG;YAAE,QAAQ;QAAI;IACxF;IAEA,MAAM,OAAO,MAAM,IAAA,qOAAG,EAAC,UAAU,QAAQ,IAAI,EAAE;QAC3C,QAAQ;QACR,iBAAiB;IACrB;IAEA,OAAO,2MAAY,CAAC,IAAI,CAAC;AAC7B"}}]
+}

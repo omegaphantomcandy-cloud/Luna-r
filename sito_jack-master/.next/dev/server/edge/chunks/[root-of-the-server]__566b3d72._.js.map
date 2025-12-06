@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/Downloads/sito_jack-master/sito_jack-master/src/middleware.ts"],"sourcesContent":["import { withAuth } from \"next-auth/middleware\"\n\nexport default withAuth({\n    pages: {\n        signIn: \"/admin/login\",\n    },\n})\n\nexport const config = { matcher: [\"/admin/:path*\"] }\n"],"names":[],"mappings":";;;;;;AAAA;;uCAEe,IAAA,kMAAQ,EAAC;IACpB,OAAO;QACH,QAAQ;IACZ;AACJ;AAEO,MAAM,SAAS;IAAE,SAAS;QAAC;KAAgB;AAAC"}}]
+}
